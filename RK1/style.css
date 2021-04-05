@@ -73,3 +73,13 @@ font-weight: 600;
 font-size: 12px;
 text-align: center;
 }
+.bttn2 {
+width: 150px;
+height: 40px;
+background: #FFFF00;
+color: #FF0000;
+font-weight: 600;
+font-size: 12px;
+text-align: center;
+margin-left:46%;
+}
