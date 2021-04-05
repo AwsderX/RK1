@@ -2,11 +2,13 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="game.css">
+<link rel="stylesheet" href="style.css">
 <title>Игра</title>
 </head>
 <script type="text/javascript">
 setTimeout("document.getElementById('bg_popup').style.display='block'", delay_popup);
 var delay_popup = 5000;
+setTimeout("document.getElementById('bg_popup').style.display='none'", delay_popup);
 //setTimeout(document.getElementById('bg_popup').style.display='none', return false;);
 </script>  
 <body style="display: block;">
@@ -17,5 +19,10 @@ var delay_popup = 5000;
 <a class="close" href="#" title="Закрыть" onclick="document.getElementById('bg_popup').style.display='none'; return false;">.  X</a>
 </div>
 </div> 
+<ul>
+<li>Игра </li>
+<li>Настройки </li>
+<li>Рейтинг </li>
+</ul>
 </body>
 </html>
