@@ -8,6 +8,12 @@ background-size: cover;
 background-attachment: fixed;
 background-repeat: no-repeat;
 }
+h1{
+text-align: center;
+}
+h2{
+text-align: center;
+}
 .flex{
 display: flex;
 max-width: 1300px; 
@@ -92,4 +98,10 @@ margin-left:46%;
 .tablaaa{
 width: 100px;
 height: 100px;
+}
+
+.tablaaa:hover{
+transition: all 2s ease-in-out;
+transition-timing-function: 2s;
+transform: rotate(0.5turn);
 }

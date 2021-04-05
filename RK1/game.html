@@ -1,0 +1,21 @@
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="game.css">
+<title>Игра</title>
+</head>
+<script type="text/javascript">
+setTimeout("document.getElementById('bg_popup').style.display='block'", delay_popup);
+var delay_popup = 5000;
+//setTimeout(document.getElementById('bg_popup').style.display='none', return false;);
+</script>  
+<body style="display: block;">
+<div id="bg_popup">
+  <div id="popup">
+<h1>Заголовок</h1>
+<p>Пример модального окна, всплывающего при загрузке сайта.</p>
+<a class="close" href="#" title="Закрыть" onclick="document.getElementById('bg_popup').style.display='none'; return false;">.  X</a>
+</div>
+</div> 
+</body>
+</html>
